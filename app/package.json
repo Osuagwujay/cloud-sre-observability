@@ -1,0 +1,14 @@
+{
+  "name": "cloud-sre-observability-app",
+  "version": "1.0.0",
+  "description": "SRE-style service with health checks and Prometheus metrics",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3"
+  }
+}
